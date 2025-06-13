@@ -51,6 +51,12 @@ button {
   z-index: 1;
 }
 
+botton:hover{
+  border: 2px solid green;
+  background: none;
+  color: green;
+}
+
 @keyframes pipe-animation{
   from {right: -80px;}
   to {right: 100%;}
