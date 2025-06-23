@@ -1,5 +1,6 @@
 const mario = document.querySelector(".mario")
 const pipe = document.querySelector(".pipe")
+const nuver = document.querySelector(".nuvem")
 const startButton = document.querySelector(".start")
 const gaveOverScreen = document.querySelector(".game-over")
 
@@ -11,6 +12,9 @@ const startGame = () => {
     pipe.style.animation = "pipe-animation 1.5s infinite linear";
 
     startButton.style.display = "none";
+    mario.style.opacity = "1";
+    pipe.style.opacity = "1";
+    nuvem.style.opacity = "1";
 }
 
 
@@ -39,6 +43,7 @@ const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "");
         mario.style.marginLeft = "50px";
 
         clearInterval(loop);
+        //// fudeu o notebook crasho e perdio oq era pra fazer >:(
     }
 },10);
 document.addEventListener("keydown", jump);
