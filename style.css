@@ -62,6 +62,15 @@ botton:hover{
   color: green;
 }
 
+'''something is missing here'''
+
+.game-over-h1{
+  font-size: 3em;
+  color: red;
+  text-align: center;
+  margin-top: 15rem;
+}
+
 @keyframes pipe-animation{
   from {right: -80px;}
   to {right: 100%;}
