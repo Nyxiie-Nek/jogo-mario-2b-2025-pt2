@@ -45,11 +45,11 @@ const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "");
         clearInterval(loop);
         gameOverScreen.style.display = "flex";
     } else if (pipePosition < 0 && gameStarted) {
-        pipe.style.left = '';
+     pipe.style.left = '';   
     }
 },10);
-document.addEventListener("keydown", jump);
 
+document.addEventListener("keydown", jump);
 
 const restartGame = () => {
     window.location.reload();
