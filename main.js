@@ -43,7 +43,9 @@ const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "");
         mario.style.marginLeft = "50px";
 
         clearInterval(loop);
-        //// fudeu o notebook crasho e perdio oq era pra fazer >:(
+        gameOverScreen.style.display = "flex";
+    } else if (pipePosition < 0 && gameStarted) {
+        pipe.style.left = '';
     }
 },10);
 document.addEventListener("keydown", jump);
