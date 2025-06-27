@@ -1,6 +1,6 @@
 const mario = document.querySelector(".mario")
 const pipe = document.querySelector(".pipe")
-const nuver = document.querySelector(".nuvem")
+const nuvem = document.querySelector(".nuvem")
 const startButton = document.querySelector(".start")
 const gaveOverScreen = document.querySelector(".game-over")
 
