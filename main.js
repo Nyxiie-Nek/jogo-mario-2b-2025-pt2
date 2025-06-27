@@ -2,7 +2,7 @@ const mario = document.querySelector(".mario")
 const pipe = document.querySelector(".pipe")
 const nuvem = document.querySelector(".nuvem")
 const startButton = document.querySelector(".start")
-const gaveOverScreen = document.querySelector(".game-over")
+const gameOverScreen = document.querySelector(".game-over")
 
 let gameStarted = false;
 
