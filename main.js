@@ -5,8 +5,8 @@ const startButton = document.querySelector(".start")
 const gameOverScreen = document.querySelector(".game-over")
 
 
-audioStart = new audio("/sounds/audio_theme.mp3");
-const gaveOverSound = new audio("/sounds/audio_gameover.mp3");
+audioStart = new audio("sounds/audio_theme.mp3");
+const gaveOverSound = new audio("sounds/audio_gameover.mp3");
 
 let gameStarted = false;
 let score = 0;
@@ -51,7 +51,7 @@ const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "");
         mario.style.animation = "none";
         mario.style.left = `${marioPosition}px`;
 
-        mario.src = "./imagem/game-over.png";
+        mario.src = "imagem/game-over.png";
         mario.style.width = "75px";
         mario.style.marginLeft = "50px";
 
