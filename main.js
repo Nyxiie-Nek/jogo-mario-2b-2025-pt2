@@ -3,10 +3,11 @@ const pipe = document.querySelector(".pipe")
 const nuvem = document.querySelector(".nuvem")
 const startButton = document.querySelector(".start")
 const gameOverScreen = document.querySelector(".game-over")
+const scoreElement = document.querySelector(".score")
 
 
-audioStart = new audio("sounds/audio_theme.mp3");
-const gaveOverSound = new audio("sounds/audio_gameover.mp3");
+audioStart = new Audio("sounds/audio_theme.mp3");
+const gaveOverSound = new Audio("sounds/audio_gameover.mp3");
 
 let gameStarted = false;
 let score = 0;
